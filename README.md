@@ -1,2 +1,2 @@
 # JustJava
-Something made with a course through udacity
+A order coffee app made with a course through udacity
