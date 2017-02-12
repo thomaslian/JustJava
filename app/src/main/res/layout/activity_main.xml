@@ -24,11 +24,9 @@
             android:inputType="textCapWords" />
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
             android:layout_marginBottom="16dp"
             android:text="@string/toppings"
-            android:textAllCaps="true" />
+            style="@style/HeaderTextStyle"/>
 
         <CheckBox
             android:id="@+id/whipped_cream_check_box"
@@ -49,11 +47,9 @@
             android:textSize="16sp" />
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
             android:layout_marginBottom="16dp"
             android:text="@string/quantity"
-            android:textAllCaps="true" />
+            style="@style/HeaderTextStyle" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -83,14 +79,14 @@
                 android:text="+" />
 
         </LinearLayout>
-
+        <!--
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="16dp"
             android:layout_marginTop="16dp"
             android:text="@string/order_summary_header"
-            android:textAllCaps="true" />
+            style="@style/CustomText" />
 
         <TextView
             android:id="@+id/order_summary_text_view"
@@ -99,7 +95,7 @@
             android:text="$10.00"
             android:textColor="@android:color/black"
             android:textSize="16sp" />
-
+        -->
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
